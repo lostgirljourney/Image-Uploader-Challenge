@@ -43,6 +43,12 @@ Challenge was to create a **_Image Uploader_** following the user story given on
       </a>
       <img src="https://github.com/lostgirljourney/Portfolio-Challenge/raw/main/assets/react.png" width="16px">
     </li>
+    <li>
+      <a href="https://firebase.google.com/">
+        Firebase
+      </a>
+      <img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png" width="16px">
+    </li>
   </ul>
 </p>
 
