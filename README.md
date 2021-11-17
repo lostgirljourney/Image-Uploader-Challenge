@@ -29,7 +29,17 @@
 
 ## Overview
 
-![img](https://i.imgur.com/OaiATSa.gif)
+1. Choose a file option.
+   
+   ![img](https://i.imgur.com/OaiATSa.gif)
+   
+2. Drag and Drop option.
+
+   ![img](https://i.imgur.com/Re9OBrs.gif)
+
+3. Wrong file format alert.
+
+   ![img](https://i.imgur.com/b5EmE2U.gif)
 
 Challenge was to create a **_Image Uploader_** following the user story given on the website.
 
