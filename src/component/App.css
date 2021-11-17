@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.App,
+.uploaded {
+	width: 402px;
+	height: 469px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #4f4f4f;
+	font-family: "Poppins", sans-serif;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+	font-weight: 500;
+}
+
+.uploaded {
+	padding: 20px 0;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h3 {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: -0.035em;
+}
+
+p.l1 {
+	font-size: 10px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: -0.035em;
+	color: #828282;
+	margin-top: 16px;
+	margin-bottom: 30px;
+}
+
+p.l2,
+p.l3 {
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: -0.035em;
+	color: #bdbdbd;
+}
+
+p.l3 {
+	margin-top: 19px;
+	color: #bdbdbd;
+}
+
+.container {
+	width: 338px;
+	height: 218.9px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	background: #f6f8fb;
+	border: 1px dashed #97bef4;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+.active {
+	border: 1px solid #97bef4;
+}
+
+input[type="file"] {
+	visibility: hidden;
+}
+
+label {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: -0.035em;
+	color: #ffffff;
+	width: 101px;
+	height: 31.98px;
+	background-color: #2f80ed;
+	border-radius: 8px;
+}
+
+.progress {
+	width: 400.36px;
+	height: 143.57px;
+	background: #ffffff;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.upHeading {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: -0.035em;
+	color: #4f4f4f;
+	margin-left: 32px;
+}
+
+.progress-bar {
+	background: #f2f2f2;
+	border-radius: 8px;
+	width: 340.71px;
+	height: 6px;
+	margin-left: 32px;
+	margin-top: 30px;
+}
+
+.progress-bar-fill {
+	height: 100%;
+	background-color: #2f80ed;
+	border-radius: 8px;
+}
+
+.check_circle {
+	color: #219653;
+	font-size: 35px;
+	margin-bottom: 11px;
+}
+
+img.preview {
+	width: 338px;
+	height: auto;
+	object-fit: contain;
+	border-radius: 12px;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+p.link-copy {
+	width: 338px;
+	height: 34px;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: -0.035em;
+	color: #4f4f4f;
+	background-color: #f6f8fb;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 0 1px 0 8px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+p.link-copy > span {
+	white-space: nowrap;
+	width: 240px;
+	overflow: hidden;
+}
+
+.copy-btn {
+	width: 74px;
+	height: 30px;
+	font-weight: 500;
+	font-size: 8px;
+	line-height: 12px;
+	letter-spacing: -0.035em;
+	color: #ffffff;
+	background-color: #2f80ed;
+	border-radius: 8px;
+	border: none;
+}
+
+.home-btn {
+	height: 36px;
+	width: 402px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	border-radius: 8px;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+	padding: 6px 0;
+	color: #ffffff;
+	border: none;
+	background-color: #2f80ed;
+	cursor: pointer;
+}
+
+.home-btn:hover {
+	color: #2f80ed;
+	border: 1px solid #2f80ed;
+	background-color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+	.App,
+	.uploaded {
+		width: 350px;
+		height: 469px;
+	}
+
+	.home-btn {
+		width: 350px;
+	}
+
+	.container {
+		width: 250px;
+	}
+
+	.progress {
+		width: 350px;
+	}
+
+	.progress-bar {
+		width: 300px;
+	}
+
+	.uploaded {
+		padding: 20px 5px;
+	}
+}
